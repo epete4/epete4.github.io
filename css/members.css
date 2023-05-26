@@ -1,0 +1,31 @@
+/* Ethan Peterson */
+
+img {
+    max-width: 15%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #555;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+main {
+    padding: 20px;
+	font-family: Arial, sans-serif;
+}
+

@@ -1,0 +1,125 @@
+/* Ethan Peterson */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 10px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+li:before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font-size: 14px;
+}
+
+/* Header styles */
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/* Navigation styles */
+
+nav {
+    background-color: #555;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+/* Main content styles */
+
+main {
+    padding: 20px;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image styles */
+
+img {
+    max-width: 35%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+/*Style displays the mobile class*/
+.mobile { display: inline;
+}
+/*Style hides the desktop class*/
+.desktop { display: none;
+}
+
+/*Style displays the mobile class*/
+	.mobile { display: none;
+	}
+	
+	/*Style hides the desktop class*/
+	.desktop { display: inline;
+	}
